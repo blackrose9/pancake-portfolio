@@ -1,3 +1,27 @@
 body{
    margin: 0%;
 }
+
+/* Header/NAV CSS */
+.navlist{
+   margin:0%;
+   overflow: hidden;
+   background-color: black;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   height:50px;
+}
+.navlist li a{
+   float: right;
+   display: block;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   list-style-type: none;
+}
+.navlist a:hover{
+   background: whitesmoke;
+   color: teal;
+}
+
