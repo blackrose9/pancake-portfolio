@@ -43,7 +43,7 @@ body{
 /* Main content CSS. Under the NAV bar */
 .content{
    margin-top: 210px;
-   padding: 15px 15px 250px;
+   padding: 15px 15px 50px;
    padding-left: 50px;
    padding-right: 50px;
 }
@@ -101,4 +101,22 @@ section{
 }
 #fun4{
    background-image: url("img/compass1.jpg");
+}
+
+/* Footer CSS */
+.footer{
+   height: 50px;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 30px;
+   background-color: whitesmoke;
+   color: navy;
+}
+.footer a{
+   text-align: center;
+   text-decoration: none;
+   list-style-type: none;
+   padding: 10px;
+   color: navy;
+   border-bottom: 1px solid navy;
 }
