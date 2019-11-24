@@ -4,13 +4,14 @@
       <meta charset="utf-8">
       <title>Portfolio</title>
       <link rel="stylesheet" href="css/main.css"/>
+      <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
    </head>
    
    <body>
       <header>
          <!-- Top Navigation Bar -->
-         <nav>
-            <img src="img/first after so long.png" alt="something"/>
+         <nav id=navbar>
+            <img src="img/first after so long.png" id="me" alt="something"/>
             <div class="navlist">
                <a href="#about">ABOUT</a>
                <a href="#projects">PROJECTS</a>
@@ -22,11 +23,9 @@
 
       <div class="content">
          <!-- About me section -->
-      <section id="about">
+         <section id="about">
             <a name="about"></a>
-            <article>
-               <img id="navimg" src="img/first after so long.png" alt="something"/>
-            </article>
+            <h1>About Me</h1>
             <article>
                <p>My name is <em>Sarah Mwendwa</em> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br/>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br/>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
             </article>
@@ -110,19 +109,6 @@
          </ul>
       </footer>
 
-      <!-- <script>
-         window.onscroll = function() {myFunction()};
-
-         var navlist = document.getElementById("navlist");
-         var sticky = navlist.offsetTop;
-
-         function myFunction() {
-            if (window.pageYOffset >= sticky) {
-               navlist.classList.add("sticky")
-            } else {
-               navlist.classList.remove("sticky");
-            }
-         }
-      </script> -->
+      <script src="js/main.js"></script>
    </body>
 </html>
