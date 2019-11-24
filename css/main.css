@@ -1,6 +1,7 @@
 body{
    margin: -1%;
    font-family: 'Lato', sans-serif;
+   background-color: navy;
 }
 
 /* Header/NAV CSS */
@@ -41,17 +42,20 @@ body{
 }
 .content{
    margin-top: 210px;
-   padding: 15px 15px 2500px;
+   padding: 15px 15px 250px;
+   padding-left: 50px;
+   padding-right: 50px;
 }
 /* General article CSS */
 section{
-   height: 200px;
+   height: 100%;
    margin-bottom: 20px;
-   background-image: linear-gradient(white, teal) ;
+   padding: 50px;
+   /* background-image: linear-gradient(white, navy); */
+   background-color: whitesmoke;
    padding-left: 30px;
    padding-right: 30px;
 }
-
 
 /* About Section CSS */
 #about{
