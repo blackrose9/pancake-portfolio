@@ -8,19 +8,19 @@ body{
 #navbar{
    position: fixed;
    width: 100%;
-   padding: 90px 10px;
    background-color: whitesmoke;
    line-height: 100px;
    overflow: hidden;
    transition: 0.4s;
    top: 0;
    z-index: 99;
+
 }
 #me{
    float: left;
    width: 250px;
    margin-left: 50px;
-   height: 150px;
+   height: 100px;
    padding: 12px;
    line-height: 100px;
    border-radius: 4px;
@@ -40,6 +40,7 @@ body{
    background: royalblue;
    color: navy;
 }
+/* Main content CSS. Under the NAV bar */
 .content{
    margin-top: 210px;
    padding: 15px 15px 250px;
@@ -58,7 +59,7 @@ section{
 
 /* About Section CSS */
 #about{
-   margin-top: 70px;
+   margin-top: 25px;
 }
 
 /* Projects Section CSS */
