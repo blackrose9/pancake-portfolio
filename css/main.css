@@ -85,22 +85,35 @@ section{
 /* Interests Section CSS */
 #interests{
    height: 400px;
+   color: whitesmoke;
 }
 .fun {
    float: left;
    width: 25%;
+   text-align: center;
+}
+.fun p{
+   font-size: 20px;
 }
 #fun1{
-   background-image: url("img/space.jpg");
+   width: 25%;
+   height: 100%;
+   background-image: url("space.jpg");
 }
 #fun2{
-   background-image: url("img/gaming.jpg");
+   width: 25%;
+   height: 100%;
+   background-image: url("gaming.jpg");
 }
 #fun3{
-   background-image: url("img/writing.jpg");
+   width: 25%;
+   height: 100%;
+   background-image: url("writing.jpg");
 }
 #fun4{
-   background-image: url("img/compass1.jpg");
+   width: 25%;
+   height: 100%;
+   background-image: url("compass1.jpg");
 }
 
 /* Footer CSS */
